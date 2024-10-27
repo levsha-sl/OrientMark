@@ -1,0 +1,39 @@
+import 'package:flutter/material.dart';
+
+class Header extends StatelessWidget {
+  const Header({
+    super.key,
+    required this.title,
+    this.result,
+  });
+
+  final String title;
+  final dynamic result;
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      alignment: Alignment.center,
+      children: [
+        Align(
+          alignment: Alignment.centerLeft,
+          child: IconButton(
+            color: Colors.black,
+            iconSize: 32.0,
+            icon: const Icon(Icons.arrow_back_ios_new_rounded),
+            onPressed: () {
+              Navigator.pop(context, result);
+            },
+          ),
+        ),
+        Text(
+          title,
+          style: const TextStyle(
+            fontSize: 20,
+            color: Color.fromRGBO(255, 132, 0, 1.0),
+          ),
+        ),
+      ],
+    );
+  }
+}

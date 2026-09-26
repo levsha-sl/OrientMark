@@ -2,8 +2,8 @@
 
 Проект для развития спортивного ориентирования.
 Будет разработано два клиентских приложения:<br>
- - для организаторов мероприятия [Event organizer](event_organizer/README.md)<br>
- - для участников мероприятия [Sportsman](sportsman/README.md)
+ - для организаторов мероприятия [Event organizer](event_organizer)<br>
+ - для участников мероприятия [Sportsman](sportsman)
 
 ## Лицензия
 

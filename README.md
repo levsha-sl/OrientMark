@@ -9,6 +9,6 @@
 
 GNU General Public License v3.0 — см. [LICENSE](LICENSE).
 
-## Помощь с проектом
+## Будущее проекта
 
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Консервирую данный репозиторий и передаю его в разработку организации OrientMark
